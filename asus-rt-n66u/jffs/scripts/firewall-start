@@ -1,0 +1,6 @@
+IPS=`grep -i "^.*Chromecast" /etc/hosts.dnsmasq  | cut -d' ' -f1`/32
+for SOURCE in $IPS
+do
+  iptables -t nat -A PREROUTING -i br0 -p udp -s $SOURCE --dport 53 -j DNAT --to `nvram get lan_ipaddr`
+  iptables -t nat -A PREROUTING -i br0 -p tcp -s $SOURCE --dport 53 -j DNAT --to `nvram get lan_ipaddr`
+done

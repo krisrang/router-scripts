@@ -1,0 +1,15 @@
+strict-order
+server=/netflix.com/208.122.23.22
+server=/netflix.com/208.122.23.23
+server=/pandora.com/208.122.23.22
+server=/pandora.com/208.122.23.23
+server=/songza.com/208.122.23.22
+server=/songza.com/208.122.23.23
+server=/hulu.com/208.122.23.22
+server=/hulu.com/208.122.23.23
+server=/itv.com/208.122.23.22
+server=/itv.com/208.122.23.23
+server=/slacker.com/208.122.23.22
+server=/slacker.com/208.122.23.23
+server=/bbc.co.uk/208.122.23.22
+server=/bbc.co.uk/208.122.23.23
